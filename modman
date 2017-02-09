@@ -1,0 +1,4 @@
+app/code/local/Shopgo/Olark/Model/Observer.php	app/code/local/Shopgo/Olark/Model/Observer.php
+app/code/local/Shopgo/Olark/Helper/Data.php	app/code/local/Shopgo/Olark/Helper/Data.php
+app/code/local/Shopgo/Olark/etc/config.xml	app/code/local/Shopgo/Olark/etc/config.xml
+app/etc/modules/Shopgo_Olark.xml	app/etc/modules/Shopgo_Olark.xml

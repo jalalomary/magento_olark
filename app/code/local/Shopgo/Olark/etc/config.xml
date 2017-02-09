@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Shopgo_Olark>
+			<version>1.0.0</version>
+		</Shopgo_Olark>
+	</modules>
+	<global>
+		<models>
+			<shopgo_olark>
+				<class>Shopgo_Olark_Model</class>
+			</shopgo_olark>
+		</models>
+		<helpers>
+			<shopgo_olark>
+				<class>Shopgo_Olark_Helper</class>
+			</shopgo_olark>
+		</helpers>
+        <events>
+            <controller_action_layout_generate_blocks_after>
+                <observers>
+                    <shopgol_olarkmore_blocks>
+                        <type>singleton</type>
+                        <class>shopgo_olark/observer</class>
+                        <method>addChat</method>
+                    </shopgol_olarkmore_blocks>
+                </observers>
+            </controller_action_layout_generate_blocks_after>
+        </events>		
+	</global>
+</config>

@@ -1,0 +1,15 @@
+{
+    "name": "shopgo/olark",
+    "type": "magento-module",
+    "license": "OSL 3.0",
+    "description": "Shows ShopGo olark chat into store backend",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "ShopGo Team",
+            "email": "support@shopgo.me"
+        }
+    ]
+}
